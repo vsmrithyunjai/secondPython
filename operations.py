@@ -58,3 +58,10 @@ if not second_number:
 #   or __nonzero__ (in Python2) to return False or 0.
 #anything that doesn't implement __bool__ (in Python3) 
 #   or __nonzero__ (in Python2), but does implement __len__ to return a value equal to 0
+
+a = 1
+b = 2
+if a == b:
+    print("a is equa to b")
+else:
+    print("a is not equal to b")
