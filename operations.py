@@ -1,3 +1,12 @@
+p=input(print("Enter principal  : "))
+n=input(print("Enter tenure of loan in months :"))
+r=input(print("Enter interest rate ;"))
+interest=((int(p)*int(n)*int(r))%100)
+print("Your Interest is", interest)
+interest1=((int(p)*int(n)*int(r))/100)
+print("Your Interest is", interest1)
+
+
 name = "John"
 age = 23
 if name == "John" and age == 23:
@@ -65,3 +74,7 @@ if a == b:
     print("a is equa to b")
 else:
     print("a is not equal to b")
+
+
+kg=eval(input(print("enter you weigth in kgs :")))
+print("your weight i lib is %.2f" % ( kg*2.2))
